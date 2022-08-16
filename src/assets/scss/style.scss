@@ -1,0 +1,36 @@
+$primary-color: #4451c1;
+$secondary-color: #5352ED;
+$btn-opacity-hover: 0.9;
+
+.btn-login {
+    background-color: $primary-color;
+
+    &:hover {
+        opacity: $btn-opacity-hover;
+    }
+
+    &--sso {
+        background-color: $secondary-color;
+
+        &:hover {
+            opacity: $btn-opacity-hover;
+        }
+    }
+
+    &--outline {
+        background-color: transparent;
+        
+        &:hover {
+            opacity: $btn-opacity-hover;
+        }
+
+    }
+}
+
+.text-color {
+    color: $primary-color;
+
+    &:hover {
+        opacity: $btn-opacity-hover;
+    }
+}
